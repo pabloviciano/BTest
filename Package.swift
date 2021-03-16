@@ -9,9 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "BFramework",
-            targets: ["BFramework"]),
-        .library(name: "AFramework",
-                 targets: ["AFramework"])
+            targets: ["BFramework", "AFramework"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
