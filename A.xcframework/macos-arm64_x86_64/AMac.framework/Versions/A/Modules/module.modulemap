@@ -1,0 +1,11 @@
+framework module AMac {
+  umbrella header "AMac.h"
+
+  export *
+  module * { export * }
+}
+
+module AMac.Swift {
+    header "AMac-Swift.h"
+    requires objc
+}
