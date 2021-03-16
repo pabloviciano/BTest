@@ -10,6 +10,8 @@ let package = Package(
         .library(
             name: "BFramework",
             targets: ["BFramework"]),
+        .library(name: "AFramework",
+                 targets: ["AFramework"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
