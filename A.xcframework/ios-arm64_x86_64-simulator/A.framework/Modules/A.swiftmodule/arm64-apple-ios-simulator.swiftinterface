@@ -4,8 +4,7 @@
 @_exported import A
 import Foundation
 import Swift
-public class AClass {
+public struct AClass {
   public init()
   public func print() -> Swift.String
-  @objc deinit
 }
