@@ -4,7 +4,8 @@
 @_exported import B
 import Foundation
 import Swift
-@_hasMissingDesignatedInitializers public class BClass {
+public class BClass {
+  public init()
   public func print() -> Swift.String
   @objc deinit
 }
