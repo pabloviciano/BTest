@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AFramework",
+        "repositoryURL": "https://github.com/pabloviciano/ATest/",
+        "state": {
+          "branch": "master",
+          "revision": "46316399dc2e71e7bf3d02dbaa775278be6f9356",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
